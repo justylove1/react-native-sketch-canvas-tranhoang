@@ -1,16 +1,15 @@
 {
   "_from": "@terrylinla/react-native-sketch-canvas",
-  "_id": "@terrylinla/react-native-sketch-canvas@0.8.0",
   "_inBundle": false,
   "_integrity": "sha512-rWLZkvYbbQ2Pje8AyT7+8nunXRNaOjfpJTYUHfUH1EVvRs+Es0rJlqoS1UmQbhKCXIra8xiBBD1jHs10S//mxg==",
-  "_location": "/@terrylinla/react-native-sketch-canvas",
+  "_location": "/@justylove/react-native-sketch-canvas-tranhoang",
   "_phantomChildren": {},
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "@justylove1/react-native-sketch-canvas-tranhoang",
-    "name": "@justylove1/react-native-sketch-canvas-tranhoang",
-    "escapedName": "@terrylinla%2freact-native-sketch-canvas",
+    "raw": "@justylove/react-native-sketch-canvas-tranhoang",
+    "name": "@justylove/react-native-sketch-canvas-tranhoang",
+    "escapedName": "@justylove%2freact-native-sketch-canvas-tranhoang",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -23,13 +22,10 @@
   "_shasum": "3d3aa4ce2afb71bac2fbd512889e292d3265b264",
   "_spec": "@terrylinla/react-native-sketch-canvas",
   "_where": "/Users/tranhoang/LearnReactNative/beeguru",
-  "author": {
-    "name": "Tran Hoang"
-  },
+  "author": "Tran Hoang",
   "bugs": {
     "url": "https://github.com/terrylinla/react-native-sketch-canvas/issues"
   },
-  "bundleDependencies": false,
   "deprecated": false,
   "description": "react-native-sketch-canvas allows you to draw / sketch on both iOS and Android devices and sync the drawing data between users. Of course you can save as image.",
   "homepage": "https://github.com/terrylinla/react-native-sketch-canvas#readme",
@@ -45,11 +41,17 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "@justylove1/react-native-sketch-canvas-tranhoang",
+  "name": "@justylove/react-native-sketch-canvas-tranhoang",
   "nativePackage": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/justylove1/react-native-sketch-canvas-tranhoang.git"
   },
-  "version": "0.8.0"
+  "version": "0.8.0",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
