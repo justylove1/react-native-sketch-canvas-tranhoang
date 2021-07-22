@@ -17,8 +17,8 @@ import {
 } from 'react-native';
 import { RNCamera } from 'react-native-camera';
 
-import RNSketchCanvas from '@terrylinla/react-native-sketch-canvas';
-import { SketchCanvas } from '@terrylinla/react-native-sketch-canvas';
+import RNSketchCanvas from '@justylove/react-native-sketch-canvas-tranhoang';
+import { SketchCanvas } from '@justylove/react-native-sketch-canvas-tranhoang';
 
 export default class example extends Component {
   constructor(props) {
