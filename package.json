@@ -47,7 +47,7 @@
     "type": "git",
     "url": "git+https://github.com/justylove1/react-native-sketch-canvas-tranhoang.git"
   },
-  "version": "0.8.3",
+  "version": "0.8.4",
   "directories": {
     "example": "example"
   },

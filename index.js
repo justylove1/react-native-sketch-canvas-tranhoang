@@ -282,7 +282,7 @@ export default class RNSketchCanvas extends React.Component {
             />
           </View>
           <View style={{ backgroundColor: 'transparent', marginTop: 10, marginHorizontal: 20, flexDirection: 'row', justifyContent: 'space-between' }}>
-            <TouchableOpacity style={{ alignItems: 'center', backgroundColor: 'transparent', paddingTop: 10, borderRadius: 10, borderWidth: this.state.onSelectType[0].seleted ? 2 : 0, borderColor: 'white' }}
+            <TouchableOpacity style={{ alignItems: 'center', backgroundColor: 'transparent', paddingTop: 10, borderRadius: 10, borderWidth: 2, borderColor: this.state.onSelectType[0].seleted ? 'white':'transparent' }}
               activeOpacity={1}
               onPress={() => {
                 this.setState({
@@ -311,7 +311,10 @@ export default class RNSketchCanvas extends React.Component {
               />
               {this.props.strokeWidthComponent(this.props.defaultStrokeWidth)}
             </TouchableOpacity>
-            <TouchableOpacity style={{ alignItems: 'center', backgroundColor: 'transparent', paddingTop: 10, borderRadius: 10, borderWidth: this.state.onSelectType[1].seleted ? 2 : 0, borderColor: 'white' }}
+            <TouchableOpacity style={{
+              alignItems: 'center', backgroundColor: 'transparent', paddingTop: 10,
+              borderRadius: 10, borderWidth: 2, borderColor: this.state.onSelectType[1].seleted ? 'white':'transparent'
+            }}
               activeOpacity={1}
               onPress={() => {
                 this.setState({
@@ -338,7 +341,10 @@ export default class RNSketchCanvas extends React.Component {
               />
               {this.props.strokeWidthComponent(this.props.defaultStrokeWidth + 3)}
             </TouchableOpacity>
-            <TouchableOpacity style={{ alignItems: 'center', backgroundColor: 'transparent', paddingTop: 10, borderRadius: 10, borderWidth: this.state.onSelectType[2].seleted ? 2 : 0, borderColor: 'white' }}
+            <TouchableOpacity style={{
+              alignItems: 'center', backgroundColor: 'transparent',
+              paddingTop: 10, borderRadius: 10, borderWidth: 2, borderColor: this.state.onSelectType[2].seleted ? 'white':'transparent'
+            }}
               activeOpacity={1}
               onPress={() => {
                 this.setState({
@@ -365,7 +371,10 @@ export default class RNSketchCanvas extends React.Component {
               />
               {this.props.strokeWidthComponent(this.props.defaultStrokeWidth + 6)}
             </TouchableOpacity>
-            <TouchableOpacity style={{ alignItems: 'center', backgroundColor: 'transparent', paddingTop: 10, borderRadius: 10, borderWidth: this.state.onSelectType[3].seleted ? 2 : 0, borderColor: 'white' }}
+            <TouchableOpacity style={{
+              alignItems: 'center', backgroundColor: 'transparent', paddingTop: 10,
+              borderRadius: 10, borderWidth: 2, borderColor: this.state.onSelectType[3].seleted ? 'white':'transparent'
+            }}
               activeOpacity={1}
               onPress={() => {
                 this.setState({
@@ -392,7 +401,10 @@ export default class RNSketchCanvas extends React.Component {
               />
               {this.props.strokeWidthComponent(this.props.defaultStrokeWidth + 9)}
             </TouchableOpacity>
-            <TouchableOpacity style={{ alignItems: 'center', backgroundColor: 'transparent', paddingTop: 10, borderRadius: 10, borderWidth: this.state.onSelectType[4].seleted ? 2 : 0, borderColor: 'white' }}
+            <TouchableOpacity style={{
+              alignItems: 'center', backgroundColor: 'transparent', paddingTop: 10,
+              borderRadius: 10, borderWidth: 2, borderColor: this.state.onSelectType[4].seleted ? 'white':'transparent'
+            }}
               activeOpacity={1}
               onPress={() => {
                 this.setState({
